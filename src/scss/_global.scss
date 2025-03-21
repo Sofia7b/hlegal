@@ -1,0 +1,124 @@
+body {
+  font: 16px/1.63 "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #24a3ff;
+  &:hover {
+    color: #f0145a;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.gradient-text {
+  @include text-grad;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-sm-block {
+  @media (min-width: 767px) {
+    display: block;
+  }
+}
+
+.d-md-block {
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 375px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 0 30px;
+  @media screen and (min-width: 767px) {
+    padding: 0 60px;
+  }
+}
+
+.container-menu {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 0 30px;
+  @media screen and (min-width: 767px) {
+    padding: 0 60px;
+  }
+}
+
+.footer__conteiner {
+  max-width: 1720px;
+  background-color: #f5f5fa;
+  padding: 0 30px;
+  @media screen and (min-width: 767px) {
+    padding: 0 60px;
+  }
+}
+
+.bg-box {
+  margin-bottom: 60px;
+  color: #fff;
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0 0 12px 12px;
+}
+
+.cat__link {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  &::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-color: inherit;
+    border-width: 3px 3px 0 0;
+    margin-left: 2px;
+    border-style: solid;
+    display: inline-block;
+    transform: rotate(45deg);
+  }
+  
+  &:hover {
+    color: #f0145a;
+  }
+}
+
+.icon {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+}
+
+.icon:hover {
+  color: #f0145a;
+}

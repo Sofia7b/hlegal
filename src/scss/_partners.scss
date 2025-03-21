@@ -1,0 +1,25 @@
+.partners {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 20%;
+    flex-shrink: 0;
+    border: 2px solid #f00;
+  }
+
+  &__link {
+    height: 120px;
+    padding: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    max-height: 100%;
+    width: auto;
+  }
+}

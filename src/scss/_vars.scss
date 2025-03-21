@@ -1,0 +1,37 @@
+:root {
+  --main-color: #323264;
+  --second-color: #46466e;
+  --mute-color: #686887;
+  --main-text-color: #000;
+  --accent-text-color: #f0145a;
+  --regular-color: #24a3ff;
+  --hover-color: #0085ff;
+  --active-color: #0085ff;
+  --bg-color: #f5f5fa;
+  --bg-alt-color: #ededf7;
+  --text-color: #b3b3ba;
+  --basic-white: #fff;
+  --separator-color: #e6e6f0;
+  --gradient: linear-gradient(130deg, #323264, #323264 70%, #a54b5f);
+  --gradient-soft: linear-gradient(42deg, #323264 15%, #323264) 50%, #7a425e 88%;
+  --gradient-red: linear-gradient(325deg, #f0145a 5%, #693264 70%);
+  --gradient-supersoft: linear-gradient(
+    230deg,
+    #323264 10%,
+    #323264 60%,
+    #643e72 90%
+  );
+  --gradient-red-text: linear-gradient(90deg, #f0145a, #ef8080);
+  
+  //   border-radius
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-rounded: 50%;
+
+  //   breakpoints
+  --bpeakpoint-sm: 375px;
+  --bpeakpoint-md: 768px;
+  --bpeakpoint-lg: 1024px;
+  --bpeakpoint-xl: 1440px;
+  --bpeakpoint-xxl: 1920px;
+}
